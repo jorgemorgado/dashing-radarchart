@@ -1,5 +1,9 @@
 # dashing-radarchart
 
+## Preview
+
+![RadarChart](https://raw.githubusercontent.com/wiki/jorgemorgado/dashing-radarchart/radarchart.png)
+
 ## Description
 
 Simple [Dashing](http://shopify.github.com/dashing) widget (and associated job)
