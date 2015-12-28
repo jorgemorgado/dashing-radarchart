@@ -7,10 +7,10 @@ class Dashing.RadarChart extends Dashing.Widget
       datasets: @get('datasets')
     }
 
-    @myChart = new Chart(@ctx).Radar(@myData, {
+    @myChart = new Chart(@ctx).Radar(@myData, $.extend({
       responsive: false
       scaleShowLine: true
-    })
+    }, @get('options')))
 
   onData: (data) ->
     # Load new values, ie,
